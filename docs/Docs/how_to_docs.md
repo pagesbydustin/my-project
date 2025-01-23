@@ -16,6 +16,6 @@ To edit this documentation, follow these steps:
 6. Push your changes to the remote repository.
 7. Create a pull request for review.
 
-## Where is {fill in the blank}
+## Using the Search Feature
 
-If you are looking for specific information that is not covered in this documentation, please contact the documentation team or check the project's issue tracker for any related discussions or requests.
+If you are looking for specific information, use the search feature available in the documentation site. Simply enter keywords related to your query, and the search function will display relevant sections and topics that match your criteria. This can help you quickly find the information you need without having to manually browse through the entire documentation.
