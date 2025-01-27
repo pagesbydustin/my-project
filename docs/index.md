@@ -13,13 +13,13 @@
 ### Setup Instructions
 
 1. **Camera Setup**:
-    - Open web interface for all 3 cameras.
+    - Open the web interface for all 3 cameras.
     - Position the cameras at the designated spots.
 
 2. **Audio Setup**:
-    - Check mics.
-    - Give mic to pastor.
-    - Give mic to assistant minister.
+    - Check the microphones.
+    - Give a microphone to the pastor.
+    - Give a microphone to the assistant minister.
 
 3. **Streaming Configuration**:
     - Open OBS Studio on the computer.

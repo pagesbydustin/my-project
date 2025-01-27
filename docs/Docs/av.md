@@ -35,4 +35,39 @@ Different types of microphones are used for various purposes:
 
 ## Video
 
+### Camera Setup
+
+- **PTZ Optics**: Position the PTZ Optics camera at the designated spot and connect it to the network.
+- **Tailair Cameras**: Position the two Tailair cameras at their designated spots and connect them to the network.
+
+### OBS Studio Configuration
+
+- Open OBS Studio on the computer.
+- Add video sources from the PTZ Optics and Tailair cameras.
+- Configure the video settings (resolution, frame rate, etc.).
+
 ## Live Streaming
+
+### Streaming Setup
+
+- Open OBS Studio on the computer.
+- Add audio sources from the audio mixer.
+- Configure the streaming settings (resolution, bitrate, etc.).
+- Start the live stream to the desired platform (YouTube, Facebook, etc.).
+
+### Troubleshooting
+
+#### No Video Signal
+
+- Check the network connections between the cameras and the computer.
+- Ensure the cameras are powered on and recognized by the computer.
+
+#### No Audio Signal
+
+- Verify the microphone connections to the audio mixer.
+- Check the audio mixer settings and ensure it is recognized by the computer.
+
+#### Streaming Issues
+
+- Check the internet connection.
+- Verify the streaming settings in OBS Studio.
