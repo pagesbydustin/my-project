@@ -3,9 +3,12 @@ theme:
   name: readthedocs
   highlightjs: true
 nav:
+  - Home: index.md
   - Docs:
       - How To Docs: Docs/how_to_docs.md
+      - Equipment: Docs/equipment.md
       - A/V: Docs/av.md
+      - Software: Docs/software.md
   - Details:
       - About Us: extras/about.md
       - Contact Us: extras/contact.md
