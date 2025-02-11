@@ -15,6 +15,8 @@ The Allen & Heath Qu-16 is a digital mixer that allows you to manage and control
 7. **Monitoring**: Use the headphone output and monitor mix controls to listen to the audio. This allows you to make adjustments in real-time.
 8. **Output**: The final mixed audio is sent to the main outputs, which are connected to the PA system or recording devices.
 
+For detailed setup instructions, refer to the [Setup Instructions](../index.md#setup-instructions).
+
 ### Feedback
 
 Feedback occurs when the sound from the speakers is picked up by the microphones and re-amplified, creating a loop that results in a high-pitched squeal. To prevent feedback:

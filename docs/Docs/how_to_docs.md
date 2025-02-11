@@ -4,14 +4,6 @@
 
 This documentation is organized into several sections to help you find the information you need quickly and easily. Each section contains detailed instructions, examples, and tips to guide you through various tasks and processes. Use the table of contents or the search function to navigate to the relevant section.
 
-### Sections Overview
-
-- **Introduction**: Provides an overview of the documentation and its purpose.
-- **Getting Started**: Guides you through the initial setup and basic usage.
-- **Advanced Topics**: Covers more complex features and configurations.
-- **FAQ**: Answers common questions and troubleshooting tips.
-- **Appendix**: Contains additional resources and references.
-
 ## How to Edit This Documentation
 
 To edit this documentation, follow these steps:
@@ -33,8 +25,8 @@ To edit this documentation, follow these steps:
 - **Pushing Changes**: Use `git push origin <branch-name>` to push your changes.
 - **Creating a Pull Request**: Go to the repository on GitHub, and create a pull request from your branch.
 
+For detailed setup instructions, refer to the [Setup Instructions](../index.md#setup-instructions).
+
 ## Using the Search Feature
 
 If you are looking for specific information, use the search feature available in the documentation site. Simply enter keywords related to your query, and the search function will display relevant sections and topics that match your criteria. This can help you quickly find the information you need without having to manually browse through the entire documentation.
-
-Contains additional resources and references.

@@ -4,16 +4,20 @@ This section will cover all equipment as a list.
 
 ## Audio
 
-All Audio componenbts are listed below.
+All Audio components are listed below.
 
-### PA
+1. **QU 16 sound board**
 
-* QU 16 sound board
-* Condenser Mics x7
-  * pulpit
-  * choir
-  * wireless for speaking
-* Lavelier mics
-  * Pastor
-  * assitant minister
-  * Guest x2
+2. **Condenser Mics x7**
+    * Pulpit
+    * Choir x2
+    * Wireless for speaking x4
+
+3. **Lavalier mics**
+    * Pastor
+    * Assistant minister
+    * Guest x2
+
+Refer to the [Setup Instructions](../index.md#setup-instructions) for detailed steps on configuring the equipment.
+
+For more information on audio setup, see the [A/V Documentation](av.md#audio).

@@ -27,6 +27,8 @@
     - Configure the streaming settings (resolution, bitrate, etc.).
     - Start the live stream to the desired platform (YouTube, Facebook, etc.).
 
+For more information on audio setup, see the [A/V Documentation](Docs/av.md#audio).
+
 ### Troubleshooting
 
 #### No Video Signal
