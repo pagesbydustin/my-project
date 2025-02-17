@@ -1,6 +1,6 @@
 site_name: Technical Documentation
 theme:
-  name: readthedocs
+  name: lumen
   highlightjs: true
 nav:
   - Home: index.md
