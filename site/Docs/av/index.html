@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>A/V - Technical Documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "A/V";
+        var mkdocs_page_input_path = "Docs\\av.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Technical Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Docs</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../how_to_docs/">How To Docs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../equipment/">Equipment</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">A/V</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#audio">Audio</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#feedback">Feedback</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#microphones">Microphones</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#video">Video</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#camera-setup">Camera Setup</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#obs-studio-configuration">OBS Studio Configuration</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#live-streaming">Live Streaming</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#streaming-setup">Streaming Setup</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#troubleshooting">Troubleshooting</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#no-video-signal">No Video Signal</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#no-audio-signal">No Audio Signal</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#streaming-issues">Streaming Issues</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../software/">Software</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Details</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../extras/about/">About Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../extras/contact/">Contact Us</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Technical Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Docs</li>
+      <li class="breadcrumb-item active">A/V</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="av-documentation">A/V Documentation</h1>
+<p>Detailed instructions for A/V setup and live-streaming.</p>
+<h2 id="audio">Audio</h2>
+<p>The Allen &amp; Heath Qu-16 is a digital mixer that allows you to manage and control audio for live events. Here’s a brief overview of how audio works on this mixer:</p>
+<ol>
+<li><strong>Signal Flow</strong>: Audio signals from microphones and instruments are connected to the input channels on the mixer. Each channel processes the audio signal independently.</li>
+<li><strong>Preamp and Gain</strong>: The preamp boosts the audio signal to a usable level. Adjust the gain to ensure the signal is strong without clipping.</li>
+<li><strong>EQ (Equalization)</strong>: Use the EQ controls to adjust the frequency response of each channel. This helps to enhance the sound quality by boosting or cutting specific frequencies.</li>
+<li><strong>Dynamics</strong>: Apply compression and gating to control the dynamic range of the audio signal. Compression reduces the volume of loud sounds, while gating eliminates unwanted noise.</li>
+<li><strong>Mixing</strong>: Use the faders to balance the levels of all input channels. The main mix fader controls the overall output level sent to the speakers.</li>
+<li><strong>Effects</strong>: Add reverb, delay, and other effects to enhance the audio. Effects can be applied to individual channels or the entire mix.</li>
+<li><strong>Monitoring</strong>: Use the headphone output and monitor mix controls to listen to the audio. This allows you to make adjustments in real-time.</li>
+<li><strong>Output</strong>: The final mixed audio is sent to the main outputs, which are connected to the PA system or recording devices.</li>
+</ol>
+<p>For detailed setup instructions, refer to the <a href="../../#setup-instructions">Setup Instructions</a>.</p>
+<h3 id="feedback">Feedback</h3>
+<p>Feedback occurs when the sound from the speakers is picked up by the microphones and re-amplified, creating a loop that results in a high-pitched squeal. To prevent feedback:</p>
+<ul>
+<li><strong>Microphone Placement</strong>: Position microphones away from speakers and monitors.</li>
+<li><strong>Gain Structure</strong>: Set the gain levels properly to avoid excessive amplification.</li>
+<li><strong>EQ Adjustments</strong>: Use the EQ to cut frequencies that are prone to feedback.</li>
+<li><strong>Directional Microphones</strong>: Use directional microphones that pick up sound from a specific direction, reducing the chance of feedback.</li>
+</ul>
+<h3 id="microphones">Microphones</h3>
+<p>Different types of microphones are used for various purposes:</p>
+<ul>
+<li><strong>Dynamic Microphones</strong>: Durable and versatile, ideal for live sound applications. They handle high sound pressure levels and are less sensitive to feedback.</li>
+<li><strong>Condenser Microphones</strong>: More sensitive and provide a wider frequency response, making them suitable for studio recordings and capturing detailed sound. They require phantom power.</li>
+<li><strong>Lavalier Microphones</strong>: Small, clip-on microphones used for hands-free operation, often in presentations and theater.</li>
+<li><strong>Shotgun Microphones</strong>: Highly directional microphones used to capture sound from a distance, commonly used in film and video production.</li>
+</ul>
+<h2 id="video">Video</h2>
+<h3 id="camera-setup">Camera Setup</h3>
+<ul>
+<li><strong>PTZ Optics</strong>: Position the PTZ Optics camera at the designated spot and connect it to the network.</li>
+<li><strong>Tailair Cameras</strong>: Position the two Tailair cameras at their designated spots and connect them to the network.</li>
+</ul>
+<h3 id="obs-studio-configuration">OBS Studio Configuration</h3>
+<ul>
+<li>Open OBS Studio on the computer.</li>
+<li>Add video sources from the PTZ Optics and Tailair cameras.</li>
+<li>Configure the video settings (resolution, frame rate, etc.).</li>
+</ul>
+<h2 id="live-streaming">Live Streaming</h2>
+<h3 id="streaming-setup">Streaming Setup</h3>
+<ul>
+<li>Open OBS Studio on the computer.</li>
+<li>Add audio sources from the audio mixer.</li>
+<li>Configure the streaming settings (resolution, bitrate, etc.).</li>
+<li>Start the live stream to the desired platform (YouTube, Facebook, etc.).</li>
+</ul>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<h4 id="no-video-signal">No Video Signal</h4>
+<ul>
+<li>Check the network connections between the cameras and the computer.</li>
+<li>Ensure the cameras are powered on and recognized by the computer.</li>
+</ul>
+<h4 id="no-audio-signal">No Audio Signal</h4>
+<ul>
+<li>Verify the microphone connections to the audio mixer.</li>
+<li>Check the audio mixer settings and ensure it is recognized by the computer.</li>
+</ul>
+<h4 id="streaming-issues">Streaming Issues</h4>
+<ul>
+<li>Check the internet connection.</li>
+<li>Verify the streaming settings in OBS Studio.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../equipment/" class="btn btn-neutral float-left" title="Equipment"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../software/" class="btn btn-neutral float-right" title="Software">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../equipment/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../software/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
