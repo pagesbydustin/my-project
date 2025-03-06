@@ -2,6 +2,8 @@
 
 Detailed instructions for A/V setup and live-streaming.
 
+For equipment specifications, see our [Equipment List](equipment.md).
+
 ## Audio
 
 The Allen & Heath Qu-16 is a digital mixer that allows you to manage and control audio for live events. Here’s a brief overview of how audio works on this mixer:
@@ -16,6 +18,10 @@ The Allen & Heath Qu-16 is a digital mixer that allows you to manage and control
 8. **Output**: The final mixed audio is sent to the main outputs, which are connected to the PA system or recording devices.
 
 For detailed setup instructions, refer to the [Setup Instructions](../index.md#setup-instructions).
+
+For detailed software configuration, see our [OBS Studio Documentation](software.md#obs-studio).
+
+For church contact information, see our [Contact Page](../extras/contact.md).
 
 ### Feedback
 

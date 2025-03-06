@@ -21,3 +21,7 @@ All Audio components are listed below.
 Refer to the [Setup Instructions](../index.md#setup-instructions) for detailed steps on configuring the equipment.
 
 For more information on audio setup, see the [A/V Documentation](av.md#audio).
+
+For video equipment setup, see our [Video Setup Documentation](av.md#video).
+
+For software configuration, see our [OBS Studio Documentation](software.md#obs-studio).

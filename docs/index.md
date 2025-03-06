@@ -10,6 +10,8 @@
 - **Streaming Software**: OBS Studio
 - **Computers**: HP Pavilion 7670, Intel Alder Lake N97 Mini PC--NucBox G5
 
+For detailed equipment specifications, see our [Equipment Documentation](Docs/equipment.md).
+
 ### Setup Instructions
 
 1. **Camera Setup**:
@@ -26,6 +28,8 @@
     - Add video and audio sources from the connected devices.
     - Configure the streaming settings (resolution, bitrate, etc.).
     - Start the live stream to the desired platform (YouTube, Facebook, etc.).
+
+For more detailed instructions about streaming software, see our [Software Documentation](Docs/software.md#obs-studio).
 
 For more information on audio setup, see the [A/V Documentation](Docs/av.md#audio).
 

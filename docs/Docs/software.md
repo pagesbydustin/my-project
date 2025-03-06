@@ -38,6 +38,10 @@ HTTP cameras are network cameras that can be accessed and controlled over the in
 - **Custom RTSP/HTTP Streams**: Use custom RTSP or HTTP streams for flexible integration with OBS.
 - **Low Latency**: Ensure minimal delay for real-time streaming.
 
+For camera setup details, see our [Camera Setup Documentation](av.md#camera-setup).
+
+For audio equipment details, see our [Audio Equipment Documentation](equipment.md#audio).
+
 ## StreamDeck
 
 StreamDeck is a customizable control pad developed by Elgato. It allows you to assign actions to physical buttons, making it easier to control your live streams, switch scenes, launch media, and more.
