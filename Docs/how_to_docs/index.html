@@ -1,137 +1,106 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>How To Docs - Technical Documentation</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/fontawesome.min.css" rel="stylesheet">
-        <link href="../../css/brands.min.css" rel="stylesheet">
-        <link href="../../css/solid.min.css" rel="stylesheet">
-        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
-
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Technical Documentation</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href="../.." class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Docs</a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="./" class="dropdown-item active" aria-current="page">How To Docs</a>
-</li>
-                                    
-<li>
-    <a href="../equipment/" class="dropdown-item">Equipment</a>
-</li>
-                                    
-<li>
-    <a href="../av/" class="dropdown-item">A/V</a>
-</li>
-                                    
-<li>
-    <a href="../software/" class="dropdown-item">Software</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Details</a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../../extras/about/" class="dropdown-item">About Us</a>
-</li>
-                                    
-<li>
-    <a href="../../extras/contact/" class="dropdown-item">Contact Us</a>
-</li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../.." class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../equipment/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>How To Docs - Technical Documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#how-to-docs" class="nav-link">How To Docs</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#how-to-use-this-documentation" class="nav-link">How to Use This Documentation</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#how-to-edit-this-documentation" class="nav-link">How to Edit This Documentation</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#using-the-search-feature" class="nav-link">Using the Search Feature</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+      <script>
+        // Current page data
+        var mkdocs_page_name = "How To Docs";
+        var mkdocs_page_input_path = "Docs\\how_to_docs.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
 
-<h1 id="how-to-docs">How To Docs</h1>
-<h2 id="how-to-use-this-documentation">How to Use This Documentation</h2>
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Technical Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Docs</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">How To Docs</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-use-this-documentation">How to Use This Documentation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-edit-this-documentation">How to Edit This Documentation</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#detailed-steps">Detailed Steps</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#using-the-search-feature">Using the Search Feature</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../equipment/">Equipment</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../av/">A/V</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../software/">Software</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Details</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../extras/about/">About Us</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../extras/contact/">Contact Us</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Technical Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Docs</li>
+      <li class="breadcrumb-item active">How To Docs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="how-to-docs">How To Docs<a class="headerlink" href="#how-to-docs" title="Permanent link">&para;</a></h1>
+<h2 id="how-to-use-this-documentation">How to Use This Documentation<a class="headerlink" href="#how-to-use-this-documentation" title="Permanent link">&para;</a></h2>
 <p>This documentation is organized into several sections to help you find the information you need quickly and easily. Each section contains detailed instructions, examples, and tips to guide you through various tasks and processes. Use the table of contents or the search function to navigate to the relevant section.</p>
-<h2 id="how-to-edit-this-documentation">How to Edit This Documentation</h2>
+<h2 id="how-to-edit-this-documentation">How to Edit This Documentation<a class="headerlink" href="#how-to-edit-this-documentation" title="Permanent link">&para;</a></h2>
 <p>To edit this documentation, follow these steps:</p>
 <ol>
 <li>Clone the repository to your local machine.</li>
@@ -142,7 +111,7 @@
 <li>Push your changes to the remote repository.</li>
 <li>Create a pull request for review.</li>
 </ol>
-<h3 id="detailed-steps">Detailed Steps</h3>
+<h3 id="detailed-steps">Detailed Steps<a class="headerlink" href="#detailed-steps" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Cloning the Repository</strong>: Use the command <code>git clone &lt;repository-url&gt;</code> to clone the repository.</li>
 <li><strong>Navigating to the Directory</strong>: Use <code>cd docs</code> to change to the documentation directory.</li>
@@ -152,83 +121,53 @@
 <li><strong>Creating a Pull Request</strong>: Go to the repository on GitHub, and create a pull request from your branch.</li>
 </ul>
 <p>For detailed setup instructions, refer to the <a href="../../#setup-instructions">Setup Instructions</a>.</p>
-<h2 id="using-the-search-feature">Using the Search Feature</h2>
-<p>If you are looking for specific information, use the search feature available in the documentation site. Simply enter keywords related to your query, and the search function will display relevant sections and topics that match your criteria. This can help you quickly find the information you need without having to manually browse through the entire documentation.</p></div>
+<h2 id="using-the-search-feature">Using the Search Feature<a class="headerlink" href="#using-the-search-feature" title="Permanent link">&para;</a></h2>
+<p>If you are looking for specific information, use the search feature available in the documentation site. Simply enter keywords related to your query, and the search function will display relevant sections and topics that match your criteria. This can help you quickly find the information you need without having to manually browse through the entire documentation.</p>
+              
             </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="../../js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../js/base.js"></script>
-        <script src="../../search/main.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../.." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../equipment/" class="btn btn-neutral float-right" title="Equipment">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
         </div>
-    </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../.." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../equipment/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
 </div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
 
-    </body>
+</body>
 </html>
