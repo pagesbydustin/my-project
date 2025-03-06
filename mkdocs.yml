@@ -1,7 +1,12 @@
 site_name: Technical Documentation
 theme:
-  name: lumen
+  name: readthedocs
   highlightjs: true
+  navigation_depth: 4
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
 nav:
   - Home: index.md
   - Docs:
