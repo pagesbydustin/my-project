@@ -9,13 +9,17 @@ build:
   os: ubuntu-24.04
   tools:
     python: "3.13"
-# Build PDF & ePub
-formats: 
-  - epub
+
+# Build formats
+formats:
+  - htmlzip
   - pdf
+  - epub
+
 # Build documentation with MkDocs
 mkdocs:
   configuration: mkdocs.yml
+  fail_on_warning: false
 
 python:
   install:
