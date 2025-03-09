@@ -10,7 +10,7 @@ build:
   tools:
     python: "3.13"
 # Build PDF & ePub
-formats:
+formats: 
   - epub
   - pdf
 # Build documentation with MkDocs
